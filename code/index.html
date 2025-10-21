@@ -1,56 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martina's Indumentaria</title>
+    <link rel="icon" type="image/png" href="assert/img/logo_martinas.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="js/include.js" defer></script>
+    <link rel="stylesheet" href="assert/style/style.css">
 </head>
 <body>
 
-    <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="assert/img/logo_martinas.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-                Martina's Indumentaria
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Líneas
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Corporativa</a></li>
-                        <li><a class="dropdown-item" href="#">Campo</a></li>
-                        <li><a class="dropdown-item" href="#">Trabajo</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contactos.html">Contactos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html">Nosotros</a>
-                </li>
-            </ul>
-            </div>
+    <!--WHATSAPP-->
+    <div id="whatsapp"></div>
+
+    <!--NAVBAR-->   
+    <div id="navbar"></div>
+
+
+    <!--BIENVENIDA-->
+    <div class="container mt-3">
+        <p>Somos una marca dedicada a vestir la esencia del campo argentino con calidad, tradición y diseño.</p>
+        <p>Venta mayorista y minorista.</p>
+    </div>
+
+
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Catalogo</h1>
+        <div id="lista-productos" class="d-flex flex-wrap gap-3 justify-content-center">
+            <!-- Aquí se van a cargar las cards -->
         </div>
-    </nav>
-
-    <h2>Hola catalogo 2</h2>
-    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore dolores molestias commodi cumque quam doloribus consequatur temporibus a voluptas expedita? Voluptates cum aperiam voluptate aspernatur ea, dicta repellat unde quaerat.</p>
-
+    </div>
 
     <!--FOOTER-->
-    <footer class="container justify-content-button d-flex py-3 my-4 border-top">
-        <p>&copy; 2024 Martina's Indumentaria &middot;</p>
-    </footer>
+    <div id="footer"></div>
+
+    <!--SCRIPTS-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script src="assert/js/script_cards.js"></script>
+    <script src="assert/js/cargar_componentes.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Bombacha",
+    "precio": 23500,
+    "imagen": "assert/img/bombacha/bombacha_bordo.png",
+    "link": "detalle_bombacha.html"
+  },
+  {
+    "nombre": "Chaleco",
+    "precio": 22000,
+    "imagen": "assert/img/chaleco/chaleco_crema.png",
+    "link": "detalle_chaleco.html"
+  },
+  {
+    "nombre": "Camisa",
+    "precio": 12000,
+    "imagen": "assert/img/camisa/camisas.png",
+    "link": "detalle_camisa.html"
+  },
+  {
+    "nombre": "Cinto",
+    "precio": 18000,
+    "imagen": "assert/img/cinto/cinto_claro.png",
+    "link": "detalle_pantalon.html"
+  },
+  {
+    "nombre": "Gorra",
+    "precio": 17500,
+    "imagen": "assert/img/gorra/gorra_beige.png",
+    "link": "detalle_gorra.html"
+  }
+]
