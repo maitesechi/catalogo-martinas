@@ -11,7 +11,7 @@ fetch("data/productos.json")
     productos.forEach(p => {
       const card = `
         <a href="${p.link}" class="text-decoration-none text-dark">
-          <div class="card producto-decoration" style="width: 18rem;">
+          <div class="card producto-decoration parrafo-custom" style="width: 18rem;">
             <img src="${p.imagen}" class="card-img-top" alt="${p.nombre}">
             <div class="card-body text-center">
               <h5 class="card-title">${p.nombre}</h5>

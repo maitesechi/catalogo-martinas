@@ -1,8 +1,44 @@
-/* Estilo para el navbar */
+/* Estilos personalizados para la navbar */
 .custom-navbar {
-    color: white;
-    background-color: #003566;
+    background-color: #052a61; /* mantiene el azul */
+    padding: 0.9rem 0.5rem; /* más espacio vertical y horizontal */
 }
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 13px; /* separa logo y texto */
+    font-size: 1.2rem; /* agranda el texto */
+    font-weight: 500; /* lo hace más grueso */
+}
+
+.navbar-brand img {
+    width: 40px;  /* aumenta el tamaño del logo */
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem; /* agranda los enlaces */
+    margin-left: 9px; /* separa un poco los items */
+    font-family: 'ABeeZee', sans-serif';
+}
+
+/* Ajustes para pantallas chicas */
+@media (max-width: 768px) {
+.navbar-brand {
+    font-size: 0.5rem; /* texto más chico */
+    gap: 8px; /* menos separación */
+}
+
+.navbar-brand img {
+    width: 26px; /* logo más chico */
+}
+
+.custom-navbar {
+    padding: 0.5rem 0.1rem; /* menos padding en celular */
+}
+}
+
 
 /* Estilo de whatsapp */
 .whatsapp-float {
@@ -41,4 +77,29 @@
     text-decoration: none;
     transform: scale(1.05);
     transition: transform 0.3s ease;
+}
+
+/* Tipografias */
+.logo-decoration {
+    font-family: 'Amarante';
+    font-size: 25px;
+}
+
+.parrafo-custom {
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.title-custom {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.parrafo-custom-footer {
+    font-family: 'PT Serif', serif;
+    font-size: 13px;
+    line-height: 1.6;
 }
