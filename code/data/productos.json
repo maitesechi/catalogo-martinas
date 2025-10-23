@@ -1,32 +1,50 @@
 [
   {
+    "id": 1,
     "nombre": "Bombacha",
-    "precio": 23500,
-    "imagen": "assert/img/bombacha/bombacha_bordo.png",
-    "link": "detalle_bombacha.html"
+    "precio": "$23500",
+    "descripcion": "Bombacha de alta calidad, confeccionada con materiales duraderos y cómodos. Ideal para uso diario o actividades al aire libre. Disponible en varios colores y tallas.",
+    "imagen1": "assert/img/bombacha/bombacha_bordo.png",
+    "imagen2": "assert/img/bombacha/bombacha_beige.png",
+    "imagen3": "assert/img/bombacha/bombacha_verde.png",
+    "colores": "Bordo - Beige - Verde - Celeste - Azul",
+    "talles": "S - M - L - XL"
   },
   {
+    "id": 2,
     "nombre": "Chaleco",
-    "precio": 22000,
-    "imagen": "assert/img/chaleco/chaleco_crema.png",
-    "link": "detalle_chaleco.html"
+    "precio": "$22000",
+    "descripcion": "Chaleco elegante y funcional, perfecto para complementar cualquier atuendo. Fabricado con tejidos resistentes que ofrecen comodidad y estilo. Disponible en diversas tallas.",
+    "imagen1": "assert/img/chaleco/chaleco_crema.png",
+    "imagen2": "assert/img/chaleco/chaleco_negro.png",
+    "colores": "Beige - Negro - Verde",
+    "talles": "S - M - L - XL"
   },
   {
+    "id": 3,
     "nombre": "Camisa",
-    "precio": 12000,
-    "imagen": "assert/img/camisa/camisas.png",
-    "link": "detalle_camisa.html"
+    "precio": "$12000",
+    "imagen1": "assert/img/camisa/camisas.png",
+    "descripcion": "Camisa clásica de manga larga, confeccionada con algodón suave y transpirable. Ideal para ocasiones formales e informales. Disponible en varios colores y tallas.",
+    "colores": "Negro - Blanco - Azul",
+    "talles": "S - M - L - XL"
   },
   {
+    "id": 4,
     "nombre": "Cinto",
-    "precio": 18000,
-    "imagen": "assert/img/cinto/cinto_claro.png",
-    "link": "detalle_pantalon.html"
+    "precio": "$18000",
+    "imagen1": "assert/img/cinto/cinto_claro.png",
+    "descripcion": "Cinto de cuero genuino, diseñado para ofrecer durabilidad y estilo. Perfecto para complementar cualquier atuendo, ya sea casual o formal. Disponible en varias tallas.",
+    "colores": "Beige - Negro - Verde",
+    "talles": "S - M - L - XL"
   },
   {
+    "id": 5,
     "nombre": "Gorra",
-    "precio": 17500,
-    "imagen": "assert/img/gorra/gorra_beige.png",
-    "link": "detalle_gorra.html"
+    "precio": "$17500",
+    "imagen1": "assert/img/gorra/gorra_beige.png",
+    "descripcion": "Gorra deportiva y casual, confeccionada con materiales ligeros y transpirables. Ideal para protegerse del sol mientras se mantiene un estilo moderno. Disponible en varios colores.",
+    "colores": "Negro - Beige - Azul",
+    "talles": "S - M - L - XL"
   }
 ]

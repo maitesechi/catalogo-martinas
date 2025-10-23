@@ -10,12 +10,12 @@ fetch("data/productos.json")
 
     productos.forEach(p => {
       const card = `
-        <a href="${p.link}" class="text-decoration-none text-dark">
+        <a href="producto.html?id=${p.id}" class="text-decoration-none text-dark">
           <div class="card producto-decoration parrafo-custom" style="width: 18rem;">
-            <img src="${p.imagen}" class="card-img-top" alt="${p.nombre}">
+            <img src="${p.imagen1}" class="card-img-top" alt="${p.nombre}">
             <div class="card-body text-center">
               <h5 class="card-title">${p.nombre}</h5>
-              <p class="card-text">$${p.precio.toLocaleString('es-AR')}</p>
+              <p class="card-text">${p.precio.toLocaleString('es-AR')}</p>
             </div>
           </div>
         </a>

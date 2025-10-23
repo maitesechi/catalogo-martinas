@@ -89,6 +89,7 @@
     font-family: 'PT Serif', serif;
     font-size: 15px;
     line-height: 1.6;
+    padding-left: 15px;
 }
 
 .title-custom {
@@ -98,8 +99,57 @@
     margin-bottom: 15px;
 }
 
+.subtitle-custom {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
 .parrafo-custom-footer {
     font-family: 'PT Serif', serif;
     font-size: 13px;
     line-height: 1.6;
+}
+
+.precio-custom {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.parrafo-custom-comentario{
+    font-family: 'PT Serif', serif;
+    font-weight: 200;
+    color: darkgray;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.icono-custom {
+    display: inline-block;
+    align-items: center;
+    gap: 8px; /* espacio entre ícono y texto */
+}
+
+
+/*Estilo del carrusel*/
+#carouselExampleIndicators {
+    padding: 10px 0;
+    max-width: 400px; /* ajusta el ancho máximo del carrusel */
+    margin: 0 auto;   
+}
+
+#carouselExampleIndicators .carousel-item img {
+    width: 100%; /* hace que las imágenes ocupen todo el ancho del carrusel */
+    height: auto; /* mantiene la proporción de las imágenes */
+}
+
+@media (max-width: 768px) {
+    #carouselExampleIndicators {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
 }

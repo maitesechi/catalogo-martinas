@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martina's Indumentaria</title>
+    <link rel="icon" type="image/png" href="assert/img/logo_martinas.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assert/style/style.css">
+
+    <!--Fuentes de Google Forts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--WHATSAPP-->
+    <div id="whatsapp"></div>
+
+    <!--NAVBAR-->
+    <div id="navbar"></div>
+
+    <!--DETALLE DEL PRODUCTO-->
+
+    <!--Carrusel-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img id="imagen-1" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img id="imagen-2" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img id="imagen-3" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--DETALLE-->
+    <div class="container mt-5">
+        <h2 class="title-custom" id="nombre"></h2>
+        <p class="parrafo-custom precio-custom" id="precio"></p>
+        <p class="parrafo-custom" id="descripcion"></p>
+        <h4 class="subtitle-custom">Colores disponibles</h4>
+        <p class="parrafo-custom" id="colores"></p>
+        <h4 class="subtitle-custom">Talles disponibles</h4>
+        <p class="parrafo-custom" id="talles"></p>
+    </div>
+
+    <div class="container mt-4">
+        <div class="icono-custom">
+            <i class="bi bi-truck"></i>
+            <p class="parrafo-custom">Envíos a todo el país</p>
+        </div>
+        <p class="parrafo-custom-comentario">Consultas respectos a pedidos y demás mandar al WhatsApp</p>
+    </div>
+
+
+    <!--FOOTER-->
+    <div id="footer"></div>
+
+    <!--SCRIPTS-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script src="assert/js/cargar_componentes.js"></script>
+    <script src="assert/js/buscar_detalle.js"></script>
+
+</body>
+</html>
