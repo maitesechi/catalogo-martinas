@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,6 @@
     <link rel="icon" type="image/png" href="assert/img/logo_martinas.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="assert/style/style.css">
-
-    <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
     <!--Fuentes de Google Forts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,30 +18,26 @@
     <!--WHATSAPP-->
     <div id="whatsapp"></div>
 
-    <!--NAVBAR-->
+    <!--NAVBAR-->   
     <div id="navbar"></div>
 
-    <div class="container mt-4">
-        <h4 class="title-custom">Nosotros</h4>
-        <p class="parrafo-custom">
-            Martina's Indumentaria es una empresa dedicada a la fabricación y venta de ropa de alta calidad para diversos sectores. Con años de experiencia en el mercado, nos enorgullece ofrecer productos que combinan estilo, comodidad y durabilidad. Nuestra misión es proporcionar a nuestros clientes indumentaria que no solo cumpla con sus necesidades funcionales, sino que también refleje su identidad y profesionalismo.
-        </p>
-    </div>
 
     <div class="container mt-4">
-        <div class="icono-custom">
-            <i class="bi bi-truck"></i>
-            <p class="parrafo-custom">Envíos a todo el país</p>
+        <h2 class="title-custom" id="categoria-titulo"></h2>
+        <div id="lista-productos" class="d-flex flex-wrap gap-3 justify-content-center">
+            <!-- Aquí se van a cargar las cards -->
         </div>
-        <p class="parrafo-custom-comentario">Consultas respectos a pedidos y demás mandar al WhatsApp</p>
     </div>
 
     <!--FOOTER-->
     <div id="footer"></div>
 
     <!--SCRIPTS-->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
+    <script src="assert/js/mostrar_categorias.js"></script>
     <script src="assert/js/cargar_componentes.js"></script>
+
 </body>
 </html>

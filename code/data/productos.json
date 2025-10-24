@@ -8,7 +8,8 @@
     "imagen2": "assert/img/bombacha/bombacha_beige.png",
     "imagen3": "assert/img/bombacha/bombacha_verde.png",
     "colores": "Bordo - Beige - Verde - Celeste - Azul",
-    "talles": "S - M - L - XL"
+    "talles": "S - M - L - XL",
+    "categoria": "Corporativa"
   },
   {
     "id": 2,
@@ -18,7 +19,8 @@
     "imagen1": "assert/img/chaleco/chaleco_crema.png",
     "imagen2": "assert/img/chaleco/chaleco_negro.png",
     "colores": "Beige - Negro - Verde",
-    "talles": "S - M - L - XL"
+    "talles": "S - M - L - XL",
+    "categoria": "Campo"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "imagen1": "assert/img/camisa/camisas.png",
     "descripcion": "Camisa clásica de manga larga, confeccionada con algodón suave y transpirable. Ideal para ocasiones formales e informales. Disponible en varios colores y tallas.",
     "colores": "Negro - Blanco - Azul",
-    "talles": "S - M - L - XL"
+    "talles": "S - M - L - XL",
+    "categoria": "Corporativa"
   },
   {
     "id": 4,
@@ -36,7 +39,8 @@
     "imagen1": "assert/img/cinto/cinto_claro.png",
     "descripcion": "Cinto de cuero genuino, diseñado para ofrecer durabilidad y estilo. Perfecto para complementar cualquier atuendo, ya sea casual o formal. Disponible en varias tallas.",
     "colores": "Beige - Negro - Verde",
-    "talles": "S - M - L - XL"
+    "talles": "S - M - L - XL",
+    "categoria": "Trabajo"
   },
   {
     "id": 5,
@@ -45,6 +49,7 @@
     "imagen1": "assert/img/gorra/gorra_beige.png",
     "descripcion": "Gorra deportiva y casual, confeccionada con materiales ligeros y transpirables. Ideal para protegerse del sol mientras se mantiene un estilo moderno. Disponible en varios colores.",
     "colores": "Negro - Beige - Azul",
-    "talles": "S - M - L - XL"
+    "talles": "S - M - L - XL",
+    "categoria": "Campo"
   }
 ]
